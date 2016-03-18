@@ -1,2 +1,2 @@
-pip install requests
-pip install telepot
+pip3.4 install requests
+pip3.4 install telepot
