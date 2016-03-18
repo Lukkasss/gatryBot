@@ -1,1 +1,2 @@
-File to specify the type of buildpack for heroku
+requests
+telepot
