@@ -16,7 +16,7 @@ while True:
 		nome = data['results'][0]['nome/_text'];
 		valor = data['results'][0]['valor'];
 		link = data['results'][0]['link'];
-		findData = re.search('title=\"([^\"]+)', str(data, re.I);
+		findData = re.search('title=\"([^\"]+)', str(data), re.I);
 		datapostado = findData.group(1);
 		
 		if (nome != ultimoNome):
