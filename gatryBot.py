@@ -21,13 +21,11 @@ while True:
 		
 		if (nome != ultimoNome):
 			bot.sendMessage('78784524', nome + '\n' + 'R$' + valor + '\nLink: ' + link + '\n\n' + "Postado dia: " + datapostado);
-			#bot.sendMessage('80858327', nome + '\n' + 'R$' + valor + '\nLink: ' + link + '\n');
-			#respostaBot = bot.getUpdates();
-			#print(respostaBot);
+			bot.sendMessage('80858327', nome + '\n' + 'R$' + valor + '\nLink: ' + link + '\n\n' + "Postado dia: " + datapostado);
 			print(nome);
 			print('R$' + valor);
 			print(link);
-			#print(datapostado);
+			print(datapostado);
 			ultimoNome = nome;
 			
 	else:
