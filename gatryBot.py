@@ -32,4 +32,4 @@ while True:
 			
 	else:
 		print('KeyError: a chave não foi encontrada no JSON.');
-time.sleep(10);
+time.sleep(30);
